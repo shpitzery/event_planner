@@ -1,5 +1,6 @@
 import React from 'react';
 import './EventPlanner.css'; // Import CSS file for styling
+import Footer from './Footer';
 
 const EventPlanner = () => {
     return ( 
@@ -7,7 +8,7 @@ const EventPlanner = () => {
         <header>
             <h1>Welcome to Event Planner</h1>
         </header>
-        
+
         <section className="description">
             <p>
                 Plan and organize your events effortlessly with Event Planner.<br /> {/*React requires all tags to be explicitly closed, even self-closing ones. Therefore, in React, you should use <br /> instead of just <br>.*/}
@@ -76,6 +77,7 @@ const EventPlanner = () => {
                 <button className='submit_button'>Send</button>
             </form>
         </section>
+        <Footer />
     </div>
     );
 };
