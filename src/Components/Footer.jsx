@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
         <footer>
-            <p>&copy; 2024 Event Planner Inc</p>
+            <p>&copy; 2024 Event Planner Inc. All rights reserved.</p>
             <nav>
                 <ul>
                     <li><a href="/about">About Us</a></li>

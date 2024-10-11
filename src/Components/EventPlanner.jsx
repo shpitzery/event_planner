@@ -11,7 +11,7 @@ const EventPlanner = () => {
 
         <section className="description">
             <p>
-                Plan and organize your events effortlessly with Event Planner.<br /> {/*React requires all tags to be explicitly closed, even self-closing ones. Therefore, in React, you should use <br /> instead of just <br>.*/}
+                Plan and organize your events effortlessly with Event Planner.<br /> {/*React requires all tags to be explicitly closed, even self-closing ones. Therefore, in React, we use <br /> instead of just <br>.*/}
                 From birthdays to corporate meetings, we've got you covered.
             </p>
             <button className='get-started-button'>Get Started</button>
@@ -74,7 +74,7 @@ const EventPlanner = () => {
                 <input type="text" placeholder='Name'/>
                 <input type="email" placeholder='Email'/>
                 <textarea placeholder='Message'></textarea>
-                <button className='submit_button'>Send</button>
+                <button className='submit-button'>Send</button>
             </form>
         </section>
         <Footer />
